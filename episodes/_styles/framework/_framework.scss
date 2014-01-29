@@ -1,0 +1,60 @@
+/**
+* Cross project framework
+*
+* @section framework
+* @author ljd
+*/
+
+// Functions
+@function em($target, $context: $base-font-size) {
+	@if $target == 0 {
+		@return 0
+	}
+	
+	@return $target / $context + 0em;
+}
+
+// Mixins
+%clearfix-after {
+	&:after {
+		display: block;
+		content: '.';
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+	.ie7 & { min-height: 1px; }
+}
+%hide-text {
+	overflow: hidden;
+
+	text-indent: 200%;
+	white-space: nowrap;
+}
+%pseudo-block {
+	@extend %hide-text;	
+	
+	display: block;
+	content: '.';
+}
+%min-width {
+	min-width: 280px;
+}
+@mixin poly-before {
+	&:before {
+		content: '\2009';
+		@content;
+	}
+	&>.before {
+		@content;
+	}
+}
+@mixin poly-after {
+	&:after {
+		content: '\2009';
+		@content;
+	}
+	&>.after {
+		@content;
+	}
+}

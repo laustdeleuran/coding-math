@@ -1,0 +1,20 @@
+/**
+* Links
+*
+* @section Quarks
+* @author ljd
+*/
+a {
+	border-bottom: 1px solid transparent;
+	color: $color-action-dark;
+	text-decoration: none;
+	vertical-align: baseline;
+
+	@include transition(0.2s ease);
+
+	&:hover,
+	&:focus,
+	&:active {
+		border-bottom-color: $color-action-dark;
+	}
+}

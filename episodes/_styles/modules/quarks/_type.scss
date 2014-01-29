@@ -1,0 +1,28 @@
+/**
+* Typography
+*
+* @section Quarks
+* @author ljd
+*/
+p,
+ol,
+ul,
+li,
+blockquote,
+figure,
+figcaption {
+	display: block;
+	margin: 0;
+	padding: 0;
+
+	@include trailer(1);
+}
+li {
+	@include trailer(0);
+}
+code, 
+tt, 
+kbd {
+	font-family: monospace;
+	@include adjust-font-size-to($base-font-size * 0.9);
+}
