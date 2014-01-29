@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width" />
 	<meta name="author" content="Laust Johan Deleuran - ljd.dk" />
 
-	<title>Coding Math - Episode #01</title>
+	<title>Coding Math - Episode #02</title>
 
 	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Playfair+Display:400,700,900,400italic,700italic" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="/_styles/style.css" media="all" />
@@ -24,8 +24,8 @@
 	<div class="episode">
 
 		<div class="episode__desc article type">
-			<h1>Episode 1 - Introduction</h1>
-			<cite><a href="http://www.youtube.com/watch?v=zm9bqSSiIdo">Youtube</a></cite>
+			<h1>Episode 2 - Intro to Trigonometry</h1>
+			<cite><a href="http://www.youtube.com/watch?v=yAHl_kpqr-k">Youtube</a></cite>
 		</div>
 
 		<div class="episode__canvas">
@@ -44,13 +44,14 @@
 			width = canvas.width = $container.width()
 			height = canvas.height = $container.height();
 
-			//context.fillRect(0, 0, width, height);
+			context.translate(0, height / 2);
+			context.scale(1, -1);
 
-			for (var i = 0; i < 100; i +=1) {
-				context.beginPath();
-				context.moveTo(Math.random() * width, Math.random() * height);
-				context.lineTo(Math.random() * width, Math.random() * height);
-				context.stroke();
+			for (var angle = 0; angle < Math.PI * 2; angle += 0.011) {
+				var x = angle * 200,
+				y = Math.sin(angle) * 200;
+
+				context.fillRect(x, y, 5, 5);
 			}
 
 		});
