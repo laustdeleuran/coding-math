@@ -861,28 +861,78 @@ h3,
 */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\000037}}
 .article {
-  margin: 5.55556em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000312}}
-.article p {
-  max-width: 27.77778em;
+  padding: 5.55556em;
 }
 
 @media screen and (max-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000313}}
   .article {
-    margin: 5.55556em 2.77778em;
+    padding: 5.55556em 2.77778em;
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000318}}
   .article {
-    margin: 2.77778em;
+    padding: 2.77778em;
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000323}}
   .article {
-    margin: 1.38889em;
+    padding: 1.38889em;
   }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\000031}}
+.episode {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000310}}
+.episode:hover .episode__desc, .episode.episode--desc .episode__desc {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000318}}
+.episode__desc,
+.episode__canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000325}}
+.episode__desc {
+  z-index: 2;
+  background: white;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  -moz-transition: 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  -o-transition: 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition: 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000334}}
+.episode__canvas {
+  bottom: 0;
+  background: #bbbbbb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000339}}
+.episode__canvas canvas {
+  display: block;
 }

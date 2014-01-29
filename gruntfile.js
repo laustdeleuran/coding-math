@@ -39,6 +39,7 @@ module.exports = function (grunt) {
 				},
 				files: [
 					'episodes/{,*/}*.html',
+					'episodes/_styles/{,*/}*.css',
 					'.tmp/episodes/_styles/{,*/}*.css',
 					'epidsodes/{,*/}*.{gif,jpeg,jpg,png,svg,webp}'
 				]
@@ -111,7 +112,7 @@ module.exports = function (grunt) {
 				expand: true,
 				dot: true,
 				cwd: 'episodes/_styles',
-				dest: '.tmp/_styles/',
+				dest: '.tmp/episodes/_styles/',
 				src: '{,*/}*.css'
 			}
 		},

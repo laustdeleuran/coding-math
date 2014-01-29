@@ -7,24 +7,20 @@
 .article {
 	@extend %min-width;
 	
-	margin: em($unit);
-
-	p {
-		max-width: em(5 * $unit);
-	}
+	padding: em($unit);
 }
 @media screen and (max-width:700px) {
 	.article {
-		margin: em($unit) em($unit / 2);
+		padding: em($unit) em($unit / 2);
 	}
 }
 @media screen and (max-width:600px) {
 	.article {
-		margin: em($unit / 2);
+		padding: em($unit / 2);
 	}
 }
 @media screen and (max-width:400px) {
 	.article {
-		margin: em($base-line-height);
+		padding: em($base-line-height);
 	}
 }
