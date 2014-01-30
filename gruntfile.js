@@ -15,7 +15,7 @@ module.exports = function (grunt) {
 		watch: {
 			js: {
 				files: [
-					'episodes/{,*/}*.js'
+					'app/{,*/}*.js'
 				],
 				tasks: ['concat', 'jshint'],
 				options: {
@@ -26,11 +26,11 @@ module.exports = function (grunt) {
 				files: ['gruntfile.js']
 			},
 			compass: {
-				files: ['episodes/_styles/modules/**/*.{scss,sass}', 'episodes/_styles/*.{scss,sass}'],
+				files: ['app/_styles/modules/**/*.{scss,sass}', 'app/_styles/*.{scss,sass}'],
 				tasks: ['compass:server']
 			},
 			styles: {
-				files: ['episodes/_styles/{,*/}*.css'],
+				files: ['app/_styles/{,*/}*.css'],
 				tasks: ['newer:copy:styles']
 			},
 			livereload: {
@@ -38,9 +38,9 @@ module.exports = function (grunt) {
 					livereload: '<%= connect.options.livereload %>'
 				},
 				files: [
-					'episodes/{,*/}*.html',
-					'episodes/_styles/{,*/}*.css',
-					'.tmp/episodes/_styles/{,*/}*.css',
+					'app/{,*/}{,*/}/*.html',
+					'app/_styles/{,*/}*.css',
+					'.tmp/app/_styles/{,*/}*.css',
 					'epidsodes/{,*/}*.{gif,jpeg,jpg,png,svg,webp}'
 				]
 			}
@@ -59,7 +59,7 @@ module.exports = function (grunt) {
 					open: true,
 					base: [
 						'.tmp',
-						'episodes'
+						'app'
 					]
 				}
 			}
@@ -78,23 +78,23 @@ module.exports = function (grunt) {
 			},
 			all: [
 				'gruntfile.js',
-				'episodes/{,*/}*.js'
+				'app/{,*/}*.js'
 			]
 		},
 
 		// Compiles Sass to CSS and generates necessary files if requested
 		compass: {
 			options: {
-				sassDir: 'episodes/_styles',
-				cssDir: 'episodes/_styles',
-				generatedImagesDir: '.tmp/episodes/_images/generated',
-				imagesDir: 'episodes/_images',
-				javascriptsDir: 'episodes/*',
-				fontsDir: 'episodes/_fonts',
-				importPath: 'episodes/_components',
-				httpImagesPath: '/episodes/_images',
-				httpGeneratedImagesPath: '/episodes/_images/generated',
-				httpFontsPath: '/episodes/_fonts',
+				sassDir: 'app/_styles',
+				cssDir: 'app/_styles',
+				generatedImagesDir: '.tmp/app/_images/generated',
+				imagesDir: 'app/_images',
+				javascriptsDir: 'app/*',
+				fontsDir: 'app/_fonts',
+				importPath: 'app/_components',
+				httpImagesPath: '/app/_images',
+				httpGeneratedImagesPath: '/app/_images/generated',
+				httpFontsPath: '/app/_fonts',
 				relativeAssets: true,
 				assetCacheBuster: false
 			},
@@ -111,8 +111,8 @@ module.exports = function (grunt) {
 			styles: {
 				expand: true,
 				dot: true,
-				cwd: 'episodes/_styles',
-				dest: '.tmp/episodes/_styles/',
+				cwd: 'app/_styles',
+				dest: '.tmp/app/_styles/',
 				src: '{,*/}*.css'
 			}
 		},

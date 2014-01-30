@@ -1,0 +1,96 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="Coding math - http://www.youtube.com/user/codingmath" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="author" content="Laust Johan Deleuran - ljd.dk" />
+
+	<title>Coding Math - Episode #01</title>
+
+	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Playfair+Display:400,700,900,400italic,700italic" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="/_styles/style.css" media="all" />
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+	<script type="text/javascript" src="/_components/modernizr/modernizr.js"></script>
+	<script type="text/javascript" src="/_components/jquery/jquery.js"></script>
+</head>
+<body>
+
+	<div class="episode">
+
+		<div class="episode__desc article type">
+			<h1>Experiment 1 - Movement</h1>
+			<cite><a href="http://www.youtube.com/watch?v=zm9bqSSiIdo">Youtube</a></cite>
+		</div>
+
+		<div class="episode__canvas">
+			<canvas id="canvas"></canvas>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		$(function () {
+
+			var $container = $('.episode__canvas'),
+			$canvas = $('#canvas'),
+			canvas = $canvas.get(0),
+			context = canvas.getContext('2d'),
+			width = canvas.width = $container.width()
+			height = canvas.height = $container.height(),
+			animate = function (fn) {
+				fn();
+				window.requestAnimationFrame(function () {
+					animate(fn);
+				});
+			},
+			stop = function () {
+				window.cancelAnimationFrame(animate);
+			};
+			//animate();
+			setTimeout(stop, 5000);
+
+
+			function Cell (canvas, context) {
+				this.length = 10;
+				this.size = 5;
+				this.x = Math.round(canvas.width * Math.random());
+				this.y = Math.round(canvas.height * Math.random());
+				this.cvs = canvas;
+				this.ctx = context;
+				this.movements = [
+					{ 
+						x: Math.round(canvas.width * Math.random()),
+						y: Math.round(canvas.height * Math.random())
+					}
+				];
+			}
+			Cell.prototype.draw = function () {
+				var pos;
+				for (var i = 0; i < this.length && i < this.movements.length; i++) {
+					pos = this.movements[i];
+					this.ctx.fillRect(pos.x, pos.y, 5, 5);
+				}
+			};
+			Cell.prototype.move = function () {
+				this.movements.unshift({
+					x: this.movements[0].x
+				});
+			};
+
+			var frankie = new Cell(canvas, context);
+			animate(function () {
+				frankie.draw();
+				frankie.move();
+			});
+
+		});
+	</script>
+
+</body>
+</html>
