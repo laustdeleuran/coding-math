@@ -47,15 +47,17 @@
 			var centerY = height * 0.5,
 			centerX = width * 0.5,
 			offset = height * 0.4,
+			baseRadius = 100,
+			offset = 50,
 			speed = 0.1,
 			angle = 0;
 
 			function render() {
-				var y = centerY + Math.sin(angle) * offset;
+				var radius = baseRadius + Math.sin(angle) * offset;
 
 				context.clearRect(0, 0, width, height);
 				context.beginPath();
-				context.arc(centerX, y, 30, 0, Math.PI * 2, false);
+				context.arc(centerX, centerY, radius, 0, Math.PI * 2, false);
 				context.fill();
 
 				angle += speed;
