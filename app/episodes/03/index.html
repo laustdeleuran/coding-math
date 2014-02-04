@@ -25,7 +25,7 @@
 
 		<div class="episode__desc article type">
 			<h1>Episode 3 - More Trigonemetry</h1>
-			<cite><a href="http://www.youtube.com/watch?v=zm9bqSSiIdo">Youtube</a></cite>
+			<cite><a href="http://www.youtube.com/watch?v=-ayh6oEtjbA">Youtube</a></cite>
 		</div>
 
 		<div class="episode__canvas">
@@ -44,14 +44,26 @@
 			width = canvas.width = $container.width()
 			height = canvas.height = $container.height();
 
-			//context.fillRect(0, 0, width, height);
+			var centerY = height * 0.5,
+			centerX = width * 0.5,
+			offset = height * 0.4,
+			speed = 0.1,
+			angle = 0;
 
-			for (var i = 0; i < 100; i +=1) {
+			function render() {
+				var y = centerY + Math.sin(angle) * offset;
+
+				context.clearRect(0, 0, width, height);
 				context.beginPath();
-				context.moveTo(Math.random() * width, Math.random() * height);
-				context.lineTo(Math.random() * width, Math.random() * height);
-				context.stroke();
+				context.arc(centerX, y, 30, 0, Math.PI * 2, false);
+				context.fill();
+
+				angle += speed;
+
+				requestAnimationFrame(render);
 			}
+
+			render();
 
 		});
 	</script>
