@@ -44,18 +44,22 @@
 			width = canvas.width = $container.width()
 			height = canvas.height = $container.height();
 
-			var centerY = height * 0.5,
-			centerX = width * 0.5,
-			offset = width * .4,
-			speed = 0.1,
-			angle = 0;
+			var centerX = width * 0.5,
+			centerY = height * 0.5,
+			xRadius = 200,
+			yRadius = 400,
+			angle = 0,
+			speed = 0.01,
+			x, y;
 
 			function render() {
-				var x = centerX + Math.sin(angle) * offset;
-
 				context.clearRect(0, 0, width, height);
+
+				x = centerX + Math.cos(angle) * xRadius;
+				y = centerY + Math.sin(angle) * yRadius;
+
 				context.beginPath();
-				context.arc(x, centerY, 50, 0, Math.PI * 2, false);
+				context.arc(x, y, 10, 0, Math.PI * 2, false);
 				context.fill();
 
 				angle += speed;
