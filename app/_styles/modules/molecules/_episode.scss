@@ -5,7 +5,7 @@
 
 	position: absolute;
 
-	&:hover,
+	&:active,
 	&.episode--desc {
 		.episode__desc {
 			@include translateY(0);

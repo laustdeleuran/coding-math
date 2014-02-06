@@ -7,12 +7,7 @@
 .article {
 	@extend %min-width;
 	
-	padding: em($unit);
-}
-@media screen and (max-width:700px) {
-	.article {
-		padding: em($unit) em($unit / 2);
-	}
+	padding: em($unit / 2) em($unit);
 }
 @media screen and (max-width:600px) {
 	.article {

@@ -16,7 +16,7 @@
 * @section framework
 * @author ljd
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_framework\.scss}line{font-family:\0000340}}
 .article {
   min-width: 280px;
 }
@@ -28,7 +28,7 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\0000322}}
 article,
 aside,
 details,
@@ -47,7 +47,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\0000332}}
 audio,
 canvas,
 video {
@@ -58,7 +58,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\0000341}}
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -68,7 +68,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\0000352}}
 [hidden],
 template {
   display: none;
@@ -82,7 +82,7 @@ template {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\0000366}}
 html {
   font-family: sans-serif;
   /* 1 */
@@ -95,7 +95,7 @@ html {
 /**
  * Remove default margin.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\0000376}}
 body {
   margin: 0;
 }
@@ -106,7 +106,7 @@ body {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\0000388}}
 a {
   background: transparent;
 }
@@ -114,7 +114,7 @@ a {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\0000396}}
 a:focus {
   outline: thin dotted;
 }
@@ -122,7 +122,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003105}}
 a:active,
 a:hover {
   outline: 0;
@@ -135,7 +135,7 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003118}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -144,7 +144,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003127}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -152,7 +152,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003136}}
 b,
 strong {
   font-weight: bold;
@@ -161,7 +161,7 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003144}}
 dfn {
   font-style: italic;
 }
@@ -169,7 +169,7 @@ dfn {
 /**
  * Address differences between Firefox and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003152}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -179,7 +179,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003162}}
 mark {
   background: #ff0;
   color: #000;
@@ -188,7 +188,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003174}}
 code,
 kbd,
 pre,
@@ -200,7 +200,7 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003183}}
 pre {
   white-space: pre-wrap;
 }
@@ -208,7 +208,7 @@ pre {
 /**
  * Set consistent quote types.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003191}}
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -216,7 +216,7 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003199}}
 small {
   font-size: 80%;
 }
@@ -224,7 +224,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003208}}
 sub,
 sup {
   font-size: 75%;
@@ -233,12 +233,12 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003215}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003219}}
 sub {
   bottom: -0.25em;
 }
@@ -249,7 +249,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003231}}
 img {
   border: 0;
 }
@@ -257,7 +257,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003239}}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -268,7 +268,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003251}}
 figure {
   margin: 0;
 }
@@ -279,7 +279,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003263}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -290,7 +290,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003274}}
 legend {
   border: 0;
   /* 1 */
@@ -303,7 +303,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003288}}
 button,
 input,
 select,
@@ -320,7 +320,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003300}}
 button,
 input {
   line-height: normal;
@@ -332,7 +332,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003312}}
 button,
 select {
   text-transform: none;
@@ -345,7 +345,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003327}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -359,7 +359,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003337}}
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -369,7 +369,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003347}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -383,7 +383,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003358}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -397,7 +397,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003371}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -406,7 +406,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003380}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -417,7 +417,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003390}}
 textarea {
   overflow: auto;
   /* 1 */
@@ -431,7 +431,7 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/framework\/_normalize\.scss}line{font-family:\00003403}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/framework\/_normalize\.scss}line{font-family:\00003403}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -443,13 +443,13 @@ table {
 * @section Quarks
 * @author ljd
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/quarks\/_document\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/quarks\/_document\.scss}line{font-family:\000038}}
 html,
 body {
   min-width: 280px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/quarks\/_document\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/quarks\/_document\.scss}line{font-family:\0000311}}
 html {
   font-size: 112.5%;
   font-family: Lato, Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -465,7 +465,7 @@ html {
 * @section Quarks
 * @author ljd
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/quarks\/_links\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/quarks\/_links\.scss}line{font-family:\000037}}
 a {
   border-bottom: 1px solid transparent;
   color: #00cd91;
@@ -476,7 +476,7 @@ a {
   -o-transition: 0.2s ease;
   transition: 0.2s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/quarks\/_links\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/quarks\/_links\.scss}line{font-family:\0000317}}
 a:hover, a:focus, a:active {
   border-bottom-color: #00cd91;
 }
@@ -487,12 +487,12 @@ a:hover, a:focus, a:active {
 * @section quarks
 * @author ljd
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/quarks\/_tables\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/quarks\/_tables\.scss}line{font-family:\000037}}
 table {
   margin-bottom: 1.38889em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/quarks\/_tables\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/quarks\/_tables\.scss}line{font-family:\0000313}}
 table,
 tr,
 td,
@@ -501,7 +501,7 @@ th {
   vertical-align: top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/quarks\/_tables\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/quarks\/_tables\.scss}line{font-family:\0000318}}
 td,
 th {
   padding: 0 0.69444em 0 0;
@@ -513,7 +513,7 @@ th {
 * @section Quarks
 * @author ljd
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/quarks\/_type\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/quarks\/_type\.scss}line{font-family:\0000313}}
 p,
 ol,
 ul,
@@ -527,12 +527,12 @@ figcaption {
   margin-bottom: 1.38889em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/quarks\/_type\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/quarks\/_type\.scss}line{font-family:\0000320}}
 li {
   margin-bottom: 0em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/quarks\/_type\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/quarks\/_type\.scss}line{font-family:\0000325}}
 code,
 tt,
 kbd {
@@ -547,7 +547,7 @@ kbd {
 * @section atoms
 * @author ljd
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_wrapper\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_wrapper\.scss}line{font-family:\000037}}
 .wrapper {
   margin: 0 auto;
   padding: 0 10px;
@@ -560,59 +560,59 @@ kbd {
 * @section atoms
 * @author  ljd
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\000038}}
 .type li {
   display: list-item;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000311}}
 .type ul {
   list-style: circle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000314}}
 .type ol {
   list-style: decimal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000318}}
 .type ul,
 .type ol {
   padding-left: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000321}}
 .type :last-child {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000324}}
 .type img {
   max-width: 100%;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000328}}
 .type dt {
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000331}}
 .type abbr {
   cursor: help;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000334}}
 .type big {
   font-size: 1.25em;
   line-height: 2.22222em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000337}}
 .type ins {
   text-decoration: none;
   font-style: italic;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000341}}
 .type ins:before {
   content: open-quote;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000344}}
 .type ins:after {
   content: close-quote;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000351}}
 .type iframe,
 .type object,
 .type embed,
@@ -622,17 +622,17 @@ kbd {
   margin: 0 auto 1.38889em !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000357}}
 .type__serif {
   font-family: Playfair Display, Georgia, Times, serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000360}}
 .type__sansserif {
   font-family: Lato, Helvetica, Helvetica Neue, Arial, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000374}}
 h1,
 .type__h1,
 h2,
@@ -682,7 +682,7 @@ h6 html,
   font-size: 18px;
   line-height: 1.38889em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000383}}
 h1:first-child,
 .type__h1:first-child,
 h2:first-child,
@@ -698,7 +698,7 @@ h6:first-child,
   margin-top: 0em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000388}}
 h1,
 .type__h1 {
   font-size: 3.5em;
@@ -707,7 +707,7 @@ h1,
   margin-bottom: 0.39683em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\0000394}}
 h2,
 .type__h2 {
   font-size: 2.5em;
@@ -716,7 +716,7 @@ h2,
   margin-bottom: 0.55556em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003100}}
 h3,
 .type__h3 {
   font-size: 1.5em;
@@ -725,7 +725,7 @@ h3,
   margin-bottom: 0.92593em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003105}}
 .type__blink {
   -webkit-animation: typeBlink 0.5s steps(1) infinite alternate;
   -moz-animation: typeBlink 0.5s steps(1) infinite alternate;
@@ -784,7 +784,7 @@ h3,
 }
 
 @media screen and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003128}}
   h1,
   .type__h1 {
     font-size: 2.5em;
@@ -793,7 +793,7 @@ h3,
     margin-bottom: 0.55556em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003134}}
   h2,
   .type__h2 {
     font-size: 1.77778em;
@@ -802,7 +802,7 @@ h3,
     margin-bottom: 0.78125em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003140}}
   h3,
   .type__h3 {
     font-size: 1.33333em;
@@ -811,7 +811,7 @@ h3,
     margin-bottom: 1.04167em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003145}}
   .type__blink {
     -webkit-animation: typeBlink 0.5s steps(1) infinite alternate;
     -moz-animation: typeBlink 0.5s steps(1) infinite alternate;
@@ -819,7 +819,7 @@ h3,
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003153}}
   h1,
   .type__h1 {
     font-size: 1.77778em;
@@ -828,7 +828,7 @@ h3,
     margin-bottom: 0.78125em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003159}}
   h2,
   .type__h2 {
     font-size: 1.33333em;
@@ -837,7 +837,7 @@ h3,
     margin-bottom: 1.04167em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003165}}
   h3,
   .type__h3 {
     font-size: 1em;
@@ -846,7 +846,7 @@ h3,
     margin-bottom: 1.38889em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/atoms\/_type\.scss}line{font-family:\00003170}}
   .type__blink {
     -webkit-animation: typeBlink 0.5s steps(1) infinite alternate;
     -moz-animation: typeBlink 0.5s steps(1) infinite alternate;
@@ -859,38 +859,32 @@ h3,
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\000037}}
 .article {
-  padding: 5.55556em;
+  padding: 2.77778em 5.55556em;
 }
 
-@media screen and (max-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000313}}
-  .article {
-    padding: 5.55556em 2.77778em;
-  }
-}
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000313}}
   .article {
     padding: 2.77778em;
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/molecules\/_article\.scss}line{font-family:\0000318}}
   .article {
     padding: 1.38889em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\000031}}
 .episode {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000310}}
-.episode:hover .episode__desc, .episode.episode--desc .episode__desc {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000310}}
+.episode:active .episode__desc, .episode.episode--desc .episode__desc {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -902,7 +896,7 @@ h3,
   transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000318}}
 .episode__desc,
 .episode__canvas {
   position: absolute;
@@ -912,7 +906,7 @@ h3,
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000325}}
 .episode__desc {
   z-index: 2;
   background: white;
@@ -927,12 +921,12 @@ h3,
   transition: 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000334}}
 .episode__canvas {
   bottom: 0;
   background: #bbbbbb;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/episodes\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/coding-math\/app\/_styles\/modules\/molecules\/_episode\.scss}line{font-family:\0000339}}
 .episode__canvas canvas {
   display: block;
 }
