@@ -48,21 +48,24 @@
 			centerY = height * 0.5,
 			xRadius = 200,
 			yRadius = 400,
-			angle = 0,
-			speed = 0.01,
+			xAngle = 0,
+			yAngle = 0,
+			xSpeed = 0.1,
+			ySpeed = 0.131,
 			x, y;
 
 			function render() {
 				context.clearRect(0, 0, width, height);
 
-				x = centerX + Math.cos(angle) * xRadius;
-				y = centerY + Math.sin(angle) * yRadius;
+				x = centerX + Math.cos(xAngle) * xRadius;
+				y = centerY + Math.sin(yAngle) * yRadius;
 
 				context.beginPath();
 				context.arc(x, y, 10, 0, Math.PI * 2, false);
 				context.fill();
 
-				angle += speed;
+				xAngle += xSpeed;
+				yAngle += ySpeed;
 
 				requestAnimationFrame(render);
 			}
